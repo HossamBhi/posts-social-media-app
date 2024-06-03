@@ -13,17 +13,13 @@ const Splash = () => {
         style={styles.logo}
         autoPlay
         loop={false}
-        onAnimationFinish={() => navigation.navigate('Home')}
+        onAnimationFinish={() => navigation.replace('Home')}
       />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  logo: {
-    width: '100%',
-    height: '100%',
-    padding: 0,
-  },
+  logo: {width: '100%', height: '100%', padding: 0},
 });
 export default Splash;
