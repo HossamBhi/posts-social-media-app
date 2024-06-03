@@ -9,12 +9,14 @@ export interface CustomTextProps {
 const CustomText = ({
   children,
   text,
+  style,
   ...props
 }: CustomTextProps & TextProps) => {
   return (
     <Text
-      className={`text-black dark:text-white`}
+      className={`text-black`}
       allowFontScaling={false}
+      style={style}
       {...props}>
       {children}
       {text}

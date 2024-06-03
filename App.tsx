@@ -17,9 +17,7 @@ const App = () => {
 
   return (
     <Providers>
-      <SafeAreaView
-        testID="safeAreaView"
-        className="flex-1 bg-white dark:bg-black">
+      <SafeAreaView testID="safeAreaView" className="flex-1 bg-white">
         <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
         <MainStack />
       </SafeAreaView>
