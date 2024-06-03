@@ -1,9 +1,9 @@
 import {useQuery} from '@tanstack/react-query';
 import axios, {AxiosError} from 'axios';
-import {PostType} from '../utils/types';
+import {CommentType, PostType} from '../utils/types';
 
 const useComments = (id: PostType['id']) =>
-  useQuery<PostType[], Error>({
+  useQuery<CommentType[], Error>({
     queryKey: ['Comments'],
     queryFn: () => fetchComments(id),
   });
