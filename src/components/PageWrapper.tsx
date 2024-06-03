@@ -11,7 +11,7 @@ const PageWrapper = ({
     className={`flex-1 justify-center items-center bg-white dark:bg-black`}
     style={style}>
     <PageHeader {...{title, isShowBack}} />
-    {children}
+    <View className="flex-1">{children}</View>
   </View>
 );
 

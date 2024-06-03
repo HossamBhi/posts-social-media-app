@@ -3,7 +3,7 @@ import {PostType} from '../utils/types';
 
 export type RootStackParamList = {
   Home: undefined;
-  PostDetails: {id: PostType['id']};
+  PostDetails: {post: PostType};
 };
 
 export type ReactNavigationProps = NativeStackScreenProps<RootStackParamList>;
