@@ -13,7 +13,7 @@ const CustomText = ({
 }: CustomTextProps & TextProps) => {
   return (
     <Text
-      className={`text-black`}
+      className={`text-black dark:text-white`}
       allowFontScaling={false}
       {...props}>
       {children}

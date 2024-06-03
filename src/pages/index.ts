@@ -1,4 +1,5 @@
 import Home from './Home';
 import PostDetails from './PostDetails';
+import Splash from './Splash';
 
-export {PostDetails, Home};
+export {Home, PostDetails, Splash};

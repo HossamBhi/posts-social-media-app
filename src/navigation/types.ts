@@ -2,6 +2,7 @@ import {NativeStackScreenProps} from 'react-native-screens/lib/typescript/native
 import {PostType} from '../utils/types';
 
 export type RootStackParamList = {
+  Splash: undefined;
   Home: undefined;
   PostDetails: {post: PostType};
 };

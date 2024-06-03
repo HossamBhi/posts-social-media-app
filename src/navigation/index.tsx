@@ -1,11 +1,14 @@
 import {createStackNavigator} from '@react-navigation/stack';
-import {Home, PostDetails} from '../pages';
+import {Home, PostDetails, Splash} from '../pages';
 import {RootStackParamList} from './types';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
 const MainStack = () => (
-  <Stack.Navigator screenOptions={{headerShown: false}}>
+  <Stack.Navigator
+    screenOptions={{headerShown: false}}
+    initialRouteName="Splash">
+    <Stack.Screen name="Splash" component={Splash} />
     <Stack.Screen name="Home" component={Home} />
     <Stack.Screen name="PostDetails" component={PostDetails} />
   </Stack.Navigator>
