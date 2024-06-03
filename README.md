@@ -4,8 +4,7 @@ This project is a simple social mobile application that contains 3 screens for l
 
 ## Screenshots
 
-| --- | --- | --- | --- | --- | --- |
-| <img src="./screenshots/screen1.png" width="150"> | <img src="./screenshots/screen2.jpeg" width="150"> | <img src="./screenshots/screen3.jpeg" width="150"> | <img src="./screenshots/screen4.jpeg" width="150"> |<img src="./screenshots/screen5.jpeg" width="150">
+<img src="./screenshots/screen1.png" width="150"> <img src="./screenshots/screen2.jpeg" width="150"> <img src="./screenshots/screen3.jpeg" width="150"> <img src="./screenshots/screen4.jpeg" width="150"> <img src="./screenshots/screen5.jpeg" width="150">
 
 ## Installation
 
