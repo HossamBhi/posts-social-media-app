@@ -11,7 +11,7 @@ const CommentCard = ({item, ...props}: {item: CommentType} & ViewProps) => (
         className="w-[60px] h-[60px]"
       />
       <View className="px-4 gap-2">
-        <CustomText text="Hossam Pasha" />
+        <CustomText text={item.name} />
         <CustomText
           text={
             new Date()?.toLocaleTimeString() +
