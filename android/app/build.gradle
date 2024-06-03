@@ -160,7 +160,7 @@ android {
                 }
             }
         }
-        resValue "string", "build_config_package", "com.newsapp"
+        resValue "string", "build_config_package", "com.postsapp"
 
     }
 
